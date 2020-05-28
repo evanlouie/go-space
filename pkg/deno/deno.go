@@ -5,12 +5,13 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/evanlouie/go-space/pkg/logger"
-	"github.com/google/go-github/v31/github"
 	"io/ioutil"
 	"net/http"
 	"path"
 	"runtime"
+
+	"github.com/evanlouie/go-space/pkg/logger"
+	"github.com/google/go-github/v31/github"
 )
 
 type Context struct {

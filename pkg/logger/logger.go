@@ -1,9 +1,10 @@
 package logger
 
 import (
-	"github.com/sirupsen/logrus"
 	"os"
 	"sync"
+
+	"github.com/sirupsen/logrus"
 )
 
 // lock is a global mutex lock to gain control of logrus.<SetLevel|SetOutput>
